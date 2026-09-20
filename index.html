@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sri VijayaDurga Crackers | Wholesale & Retail | Gollapudi Vijayawada</title>
+
+  <meta name="description"
+    content="Sri VijayaDurga Crackers, Gollapudi Vijayawada. Festival fireworks and crackers - wholesale and retail. Visit our shop near City Plaza, opposite Gold Medal Company.">
+
+  <meta name="robots" content="index, follow">
+
+  <!-- =========================================================
+       GOOGLE ADS TRACKING
+       Replace AW-XXXXXXXXXX with your actual Google Ads ID.
+       ========================================================= -->
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXXX"></script>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'AW-XXXXXXXXXX');
+
+    /*
+      GOOGLE ADS CONVERSION PLACEHOLDER
+
+      When you create your Google Ads conversion actions,
+      replace the placeholders below.
+
+      Example:
+
+      gtag('event', 'conversion', {
+        'send_to': 'AW-XXXXXXXXXX/CONVERSION_LABEL'
+      });
+    */
+
+    function trackCall() {
+      console.log("Call button clicked");
+
+      // GOOGLE ADS CALL CONVERSION
+      // gtag('event', 'conversion', {
+      //   'send_to': 'AW-XXXXXXXXXX/CALL_LABEL'
+      // });
+    }
+
+    function trackDirections() {
+      console.log("Directions button clicked");
+
+      // GOOGLE ADS DIRECTIONS CONVERSION
+      // gtag('event', 'conversion', {
+      //   'send_to': 'AW-XXXXXXXXXX/DIRECTIONS_LABEL'
+      // });
+    }
+
+    function trackWhatsApp() {
+      console.log("WhatsApp button clicked");
+
+      // GOOGLE ADS WHATSAPP CONVERSION
+      // gtag('event', 'conversion', {
+      //   'send_to': 'AW-XXXXXXXXXX/WHATSAPP_LABEL'
+      // });
+    }
+  </script>
+
+
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at 20% 20%, rgba(255, 0, 128, 0.16), transparent 25%),
+        radial-gradient(circle at 80% 10%, rgba(255, 170, 0, 0.14), transparent 25%),
+        linear-gradient(135deg, #08000f, #180020, #050008);
+      color: #ffffff;
+      line-height: 1.6;
+      min-height: 100vh;
+      padding-bottom: 80px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    /* =========================
+       FIREWORK BACKGROUND
+       ========================= */
+
+    .fireworks {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: 0;
+      opacity: 0.65;
+    }
+
+    .burst {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background: #ffd700;
+      border-radius: 50%;
+      box-shadow:
+        0 -70px 0 #ffd700,
+        50px -50px 0 #ff4da6,
+        70px 0 0 #ff9d00,
+        50px 50px 0 #ffd700,
+        0 70px 0 #ff4da6,
+        -50px 50px 0 #ff9d00,
+        -70px 0 0 #ffd700,
+        -50px -50px 0 #ff4da6;
+      animation: sparkle 3s infinite ease-in-out;
+    }
+
+    .burst:nth-child(1) {
+      top: 18%;
+      left: 15%;
+    }
+
+    .burst:nth-child(2) {
+      top: 12%;
+      right: 15%;
+      animation-delay: 1s;
+      transform: scale(0.7);
+    }
+
+    .burst:nth-child(3) {
+      top: 50%;
+      right: 8%;
+      animation-delay: 2s;
+      transform: scale(0.5);
+    }
+
+    @keyframes sparkle {
+      0%, 100% {
+        opacity: 0.2;
+        transform: scale(0.6);
+      }
+
+      50% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    /* =========================
+       MAIN CONTAINER
+       ========================= */
+
+    .container {
+      width: min(1100px, 92%);
+      margin: auto;
+      position: relative;
+      z-index: 2;
+    }
+
+    /* =========================
+       HERO
+       ========================= */
+
+    .hero {
+      min-height: 92vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 0 40px;
+    }
+
+    .hero-card {
+      width: 100%;
+      max-width: 900px;
+      padding: 55px 25px;
+      border: 1px solid rgba(255, 215, 0, 0.3);
+      border-radius: 30px;
+
+      background:
+        linear-gradient(
+          145deg,
+          rgba(45, 0, 60, 0.92),
+          rgba(8, 0, 18, 0.94)
+        );
+
+      box-shadow:
+        0 0 60px rgba(255, 0, 128, 0.12),
+        inset 0 0 50px rgba(255, 215, 0, 0.03);
+
+      backdrop-filter: blur(8px);
+    }
+
+    .hero-firework {
+      font-size: 65px;
+      margin-bottom: 10px;
+      animation: float 2.5s infinite ease-in-out;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    .brand {
+      font-size: clamp(38px, 8vw, 75px);
+      font-weight: 900;
+      line-height: 1.05;
+
+      background: linear-gradient(
+        90deg,
+        #ffd700,
+        #ff9d00,
+        #ff4da6,
+        #ffd700
+      );
+
+      background-size: 300% auto;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+
+      animation: shine 5s linear infinite;
+
+      text-shadow: 0 0 30px rgba(255, 174, 0, 0.18);
+    }
+
+    @keyframes shine {
+      to {
+        background-position: 300% center;
+      }
+    }
+
+    .subtitle {
+      margin-top: 18px;
+      font-size: clamp(18px, 3vw, 28px);
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    .location {
+      margin: 15px auto 30px;
+      max-width: 700px;
+      font-size: 16px;
+      color: #ddd;
+    }
+
+    .location span {
+      color: #ffd700;
+      font-weight: bold;
+    }
+
+    /* =========================
+       CTA BUTTONS
+       ========================= */
+
+    .cta-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      max-width: 760px;
+      margin: 30px auto 0;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+
+      min-height: 58px;
+      padding: 15px 18px;
+
+      border-radius: 14px;
+      font-size: 17px;
+      font-weight: 800;
+
+      transition: 0.25s ease;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    }
+
+    .btn-call {
+      background: linear-gradient(135deg, #ff9d00, #ffd700);
+      color: #1a0800;
+    }
+
+    .btn-location {
+      background: linear-gradient(135deg, #ff2d75, #ff4da6);
+      color: white;
+    }
+
+    .btn-whatsapp {
+      background: linear-gradient(135deg, #19b95c, #25d366);
+      color: white;
+    }
+
+    /* =========================
+       SECTIONS
+       ========================= */
+
+    section {
+      padding: 70px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: clamp(28px, 5vw, 42px);
+      margin-bottom: 12px;
+
+      background: linear-gradient(
+        90deg,
+        #ffd700,
+        #ffffff,
+        #ff4da6
+      );
+
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: #bbb;
+      margin-bottom: 40px;
+    }
+
+    /* =========================
+       PRODUCTS
+       ========================= */
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .product-card {
+      padding: 30px 20px;
+      text-align: center;
+
+      background: rgba(255, 255, 255, 0.055);
+      border: 1px solid rgba(255, 215, 0, 0.16);
+      border-radius: 20px;
+
+      transition: 0.25s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(255, 215, 0, 0.5);
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .product-icon {
+      font-size: 45px;
+      margin-bottom: 12px;
+    }
+
+    .product-card h3 {
+      color: #ffd700;
+      font-size: 21px;
+      margin-bottom: 8px;
+    }
+
+    .product-card p {
+      color: #bbb;
+      font-size: 14px;
+    }
+
+    /* =========================
+       VISIT SECTION
+       ========================= */
+
+    .visit-card {
+      text-align: center;
+      padding: 45px 25px;
+
+      border-radius: 25px;
+
+      background:
+        linear-gradient(
+          135deg,
+          rgba(255, 0, 128, 0.1),
+          rgba(255, 180, 0, 0.08)
+        );
+
+      border: 1px solid rgba(255, 215, 0, 0.25);
+    }
+
+    .visit-address {
+      font-size: 19px;
+      color: #eee;
+      max-width: 700px;
+      margin: 15px auto 25px;
+    }
+
+    .map-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+
+      padding: 16px 30px;
+
+      border-radius: 14px;
+
+      background: linear-gradient(
+        135deg,
+        #ff9d00,
+        #ffd700
+      );
+
+      color: #1a0800;
+      font-weight: 900;
+
+      transition: 0.25s ease;
+    }
+
+    .map-btn:hover {
+      transform: translateY(-3px);
+    }
+
+    /* =========================
+       FINAL CTA
+       ========================= */
+
+    .final-cta {
+      text-align: center;
+      padding: 75px 20px;
+    }
+
+    .final-cta h2 {
+      font-size: clamp(30px, 6vw, 52px);
+      margin-bottom: 12px;
+
+      background: linear-gradient(
+        90deg,
+        #ffd700,
+        #ff4da6
+      );
+
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .final-cta p {
+      color: #ccc;
+      margin-bottom: 25px;
+    }
+
+    /* =========================
+       FOOTER
+       ========================= */
+
+    footer {
+      text-align: center;
+      padding: 30px 15px 100px;
+      color: #888;
+      font-size: 13px;
+    }
+
+    footer strong {
+      color: #ffd700;
+    }
+
+    /* =========================
+       MOBILE BOTTOM BAR
+       ========================= */
+
+    .mobile-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+
+      display: none;
+
+      grid-template-columns: repeat(3, 1fr);
+
+      background: rgba(10, 0, 18, 0.97);
+      border-top: 1px solid rgba(255, 215, 0, 0.25);
+
+      z-index: 999;
+      backdrop-filter: blur(12px);
+    }
+
+    .mobile-bar a {
+      padding: 12px 5px;
+      text-align: center;
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .mobile-bar span {
+      display: block;
+      font-size: 22px;
+      margin-bottom: 2px;
+    }
+
+    /* =========================
+       RESPONSIVE
+       ========================= */
+
+    @media (max-width: 750px) {
+
+      .hero {
+        min-height: auto;
+        padding: 35px 0;
+      }
+
+      .hero-card {
+        padding: 45px 18px;
+        border-radius: 22px;
+      }
+
+      .hero-firework {
+        font-size: 50px;
+      }
+
+      .cta-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .products {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .mobile-bar {
+        display: grid;
+      }
+
+      footer {
+        padding-bottom: 110px;
+      }
+    }
+
+    @media (max-width: 450px) {
+
+      .products {
+        grid-template-columns: 1fr;
+      }
+
+      .brand {
+        font-size: 42px;
+      }
+
+      .subtitle {
+        font-size: 19px;
+      }
+
+      .location {
+        font-size: 14px;
+      }
+    }
+
+  </style>
+</head>
+
+
+<body>
+
+  <!-- =========================
+       BACKGROUND FIREWORKS
+       ========================= -->
+
+  <div class="fireworks">
+    <div class="burst"></div>
+    <div class="burst"></div>
+    <div class="burst"></div>
+  </div>
+
+
+  <!-- =========================
+       HERO
+       ========================= -->
+
+  <header class="hero">
+
+    <div class="container">
+
+      <div class="hero-card">
+
+        <div class="hero-firework">🎆</div>
+
+        <h1 class="brand">
+          Sri VijayaDurga Crackers
+        </h1>
+
+        <div class="subtitle">
+          Festival Fireworks & Crackers
+        </div>
+
+        <p class="location">
+          <span>Wholesale & Retail</span><br>
+          📍 After City Plaza, Opp. Gold Medal Company,
+          Gollapudi, Vijayawada
+        </p>
+
+
+        <!-- MAIN ACTION BUTTONS -->
+
+        <div class="cta-grid">
+
+          <a
+            href="tel:+917989418555"
+            class="btn btn-call"
+            onclick="trackCall()"
+          >
+            📞 CALL NOW
+          </a>
+
+
+          <a
+            href="https://maps.app.goo.gl/h7xeSBJPeSrBaCus7"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-location"
+            onclick="trackDirections()"
+          >
+            📍 GET DIRECTIONS
+          </a>
+
+
+          <a
+            href="https://wa.me/917989418555?text=Hello%20Sri%20VijayaDurga%20Crackers%2C%20I%20want%20to%20know%20about%20your%20crackers."
+            target="_blank"
+            rel="noopener"
+            class="btn btn-whatsapp"
+            onclick="trackWhatsApp()"
+          >
+            💬 WHATSAPP
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- =========================
+       PRODUCTS
+       ========================= -->
+
+  <section>
+
+    <div class="container">
+
+      <h2 class="section-title">
+        Our Fireworks Collection
+      </h2>
+
+      <p class="section-subtitle">
+        Wholesale & Retail • Festival Fireworks • Crackers
+      </p>
+
+
+      <div class="products">
+
+        <div class="product-card">
+          <div class="product-icon">🎆</div>
+          <h3>Festival Fireworks</h3>
+          <p>
+            Celebrate your special occasions with a wide range
+            of fireworks and crackers.
+          </p>
+        </div>
+
+
+        <div class="product-card">
+          <div class="product-icon">🧨</div>
+          <h3>Crackers</h3>
+          <p>
+            Choose from different varieties of crackers
+            for your celebrations.
+          </p>
+        </div>
+
+
+        <div class="product-card">
+          <div class="product-icon">✨</div>
+          <h3>Fancy Items</h3>
+          <p>
+            Add colour and excitement to your celebrations
+            with fancy fireworks.
+          </p>
+        </div>
+
+
+        <div class="product-card">
+          <div class="product-icon">📦</div>
+          <h3>Wholesale Orders</h3>
+          <p>
+            Wholesale enquiries welcome for suitable
+            quantities and requirements.
+          </p>
+        </div>
+
+
+        <div class="product-card">
+          <div class="product-icon">🛍️</div>
+          <h3>Retail Sales</h3>
+          <p>
+            Visit our shop in Gollapudi for retail purchases.
+          </p>
+        </div>
+
+
+        <div class="product-card">
+          <div class="product-icon">🎇</div>
+          <h3>Festival Collections</h3>
+          <p>
+            Explore our festival-focused collection
+            at the shop.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       VISIT SHOP
+       ========================= -->
+
+  <section>
+
+    <div class="container">
+
+      <div class="visit-card">
+
+        <h2 class="section-title">
+          Visit Sri VijayaDurga Crackers
+        </h2>
+
+        <p class="visit-address">
+          📍 After City Plaza,<br>
+          Opp. Gold Medal Company,<br>
+          Gollapudi, Vijayawada
+        </p>
+
+
+        <a
+          href="https://maps.app.goo.gl/h7xeSBJPeSrBaCus7"
+          target="_blank"
+          rel="noopener"
+          class="map-btn"
+          onclick="trackDirections()"
+        >
+          📍 OPEN GOOGLE MAPS
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       FINAL CALL TO ACTION
+       ========================= -->
+
+  <section class="final-cta">
+
+    <div class="container">
+
+      <h2>
+        Celebrate Bright • Celebrate Safe
+      </h2>
+
+      <p>
+        Planning your festival celebrations?
+        Visit Sri VijayaDurga Crackers in Gollapudi, Vijayawada.
+      </p>
+
+
+      <div class="cta-grid">
+
+        <a
+          href="tel:+917989418555"
+          class="btn btn-call"
+          onclick="trackCall()"
+        >
+          📞 CALL NOW
+        </a>
+
+
+        <a
+          href="https://maps.app.goo.gl/h7xeSBJPeSrBaCus7"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-location"
+          onclick="trackDirections()"
+        >
+          📍 GET DIRECTIONS
+        </a>
+
+
+        <a
+          href="https://wa.me/917989418555?text=Hello%20Sri%20VijayaDurga%20Crackers%2C%20I%20want%20to%20know%20about%20your%20crackers."
+          target="_blank"
+          rel="noopener"
+          class="btn btn-whatsapp"
+          onclick="trackWhatsApp()"
+        >
+          💬 WHATSAPP
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       FOOTER
+       ========================= -->
+
+  <footer>
+
+    <p>
+      <strong>Sri VijayaDurga Crackers</strong>
+    </p>
+
+    <p>
+      Festival Fireworks & Crackers • Wholesale & Retail
+    </p>
+
+    <p>
+      Gollapudi, Vijayawada
+    </p>
+
+    <p style="margin-top:10px;">
+      © 2026 Sri VijayaDurga Crackers
+    </p>
+
+  </footer>
+
+
+  <!-- =========================
+       MOBILE STICKY BAR
+       ========================= -->
+
+  <div class="mobile-bar">
+
+    <a
+      href="tel:+917989418555"
+      onclick="trackCall()"
+    >
+      <span>📞</span>
+      Call
+    </a>
+
+
+    <a
+      href="https://maps.app.goo.gl/h7xeSBJPeSrBaCus7"
+      target="_blank"
+      rel="noopener"
+      onclick="trackDirections()"
+    >
+      <span>📍</span>
+      Location
+    </a>
+
+
+    <a
+      href="https://wa.me/917989418555?text=Hello%20Sri%20VijayaDurga%20Crackers%2C%20I%20want%20to%20know%20about%20your%20crackers."
+      target="_blank"
+      rel="noopener"
+      onclick="trackWhatsApp()"
+    >
+      <span>💬</span>
+      WhatsApp
+    </a>
+
+  </div>
+
+
+</body>
+</html>
